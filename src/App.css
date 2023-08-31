@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+
+#home-featured-products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+#home-recommended-products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
