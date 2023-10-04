@@ -8,6 +8,7 @@ export function ProductView({
     <>
       <section>
         <div>
+          {/* Här ser du att ´route.data´ används för att hämta en specifik produkt. */}
           {route.data.images.map((image) => (
             <img src={image} width={50} height={50} />
           ))}
